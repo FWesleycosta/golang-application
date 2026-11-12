@@ -1,0 +1,20 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: golang-application
+  title: Golang Application
+  description: "Aplicação Go de exemplo com deploy no Kubernetes usando Helm e ArgoCD."
+  tags:
+    - go
+    - docker
+    - helm
+    - kubernetes
+    - argocd
+    - gitops
+  annotations:
+    github.com/project-slug: FWesleycosta/golang-application
+spec:
+  type: service
+  lifecycle: experimental
+  owner: fwesleycosta
+  system: gitops
